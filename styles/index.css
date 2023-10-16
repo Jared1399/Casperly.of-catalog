@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+}
+
+.main__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+
+.copy_data__title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.transfer_info__container {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    place-items: center;
+    gap: 5px;
+}
+
+.invisible {
+    display: none;
+}

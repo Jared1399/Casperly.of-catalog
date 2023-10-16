@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💕 Casperland 💕</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="scripts/index.js" defer></script>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>💕 Casperland 💕</title>
 </head>
+
 <body>
-    <div>
-        ola
+  <div class="main__container">
+    <div class="grid__container">
+      <h1>Tienda <a target="_blank" href="https://www.instagram.com/casperland.cl/">Casperland</a></h1>
+
+      <section>
+        <div class="copy_data__title">
+          <button id="toggleTransferData">
+            Copiar datos de transferencia
+          </button>
+        </div>
+
+        <div class="transfer_info__container invisible" id="infoContainer">
+          <div>
+            <input type="text" value="Daniela Constanza Reyes Fuentes" readonly>
+            <button>Copiar</button>
+          </div>
+          <div>
+            <input type="text" value="Banco estado" readonly>
+            <button>Copiar</button>
+          </div>
+          <div>
+            <input type="text" value="XX.XXX.XXX-X" readonly>
+            <button>Copiar</button>
+          </div>
+          <div>
+            <input type="text" value="XXXXXXXX" readonly>
+            <button>Copiar</button>
+          </div>
+
+          <div>
+            <Button>Copiar todo</Button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <p>
+          <button>
+            Catalogo
+          </button>
+        </p>
+      </section>
+
     </div>
+  </div>
 </body>
+
 </html>
